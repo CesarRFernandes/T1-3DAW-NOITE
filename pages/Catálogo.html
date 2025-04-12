@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+      <div class="nav-left">
+        <a href="Catálogo.html">Catálogo</a>
+        <a href="Meus_produtos.html">Meus Produtos</a>
+      </div>
+      <div class="nav-right">
+        <button onclick="logout()">Sair</button>
+      </div>
+    </nav>
+  
+    <div class="filters">
+      <button onclick="filterProducts('all')">Todos</button>
+      <button onclick="filterProducts('interested')">Apenas Tenho Interesse</button>
+    </div>
+  
+    <div class="product-list" id="productList">
+      
+      <div class="product" data-interested="false">
+        <div class="product-info">
+          <h3>Produto 1</h3>
+          <p>Descrição detalhada do produto 1.</p>
+        </div>
+        <img src="https://via.placeholder.com/120" alt="Produto 1">
+        <button class="interest-btn" onclick="toggleInterest(this)">Tenho Interesse</button>
+      </div>
+  
+      <div class="product" data-interested="false">
+        <div class="product-info">
+          <h3>Produto 2</h3>
+          <p>Descrição detalhada do produto 2.</p>
+        </div>
+        <img src="https://via.placeholder.com/120" alt="Produto 2">
+        <button class="interest-btn" onclick="toggleInterest(this)">Tenho Interesse</button>
+      </div>
+    </div>
+  
+    <div class="pagination">
+      <a href="#">&#8592; Anterior</a>
+      <a href="#">Próxima &#8594;</a>
+    </div>
+  
+    <script>
+      function toggleInterest(button) {
+        const product = button.closest('.product');
+        const isInterested = product.getAttribute('data-interested') === 'true';
+        product.setAttribute('data-interested', !isInterested);
+        button.classList.toggle('active');
+      }
+  
+      function filterProducts(type) {
+        const products = document.querySelectorAll('.product');
+        products.forEach(product => {
+          const interested = product.getAttribute('data-interested') === 'true';
+          if (type === 'all') {
+            product.style.display = 'flex';
+          } else if (type === 'interested') {
+            product.style.display = interested ? 'flex' : 'none';
+          }
+        });
+      }
+  
+      function logout() {
+        alert('Você saiu da conta!');
+      }
+    </script>
+  
+  </body>
+</html>
