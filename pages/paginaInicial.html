@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EcoEscambo - Catálogo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="paginaInicial.html">Catálogo</a></li>
+          <li><a href="meusProdutos.html">Meus Produtos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="filtro-catalogo">
+        <h2>Catálogo</h2>
+
+        <label>
+          <input type="radio" name="filtroProdutos" value="todos" checked />
+          Todos
+        </label>
+        <label>
+          <input type="radio" name="filtroProdutos" value="interessados" />
+          Só nos quais estou interessado
+        </label>
+      </section>
+      <section id="listaProdutos">
+        <article class="produto">
+          <h3>Título do Produto</h3>
+          <p>
+            Descrição do produto, lorem ipsum dolor sit amet, consectetur
+            adipiscing elit...
+          </p>
+          <button class="btn-interesse">Tenho Interesse</button>
+        </article>
+
+        <article class="produto">
+          <h3>Título do Produto 2</h3>
+          <p>
+            Outra descrição, lorem ipsum dolor sit amet, consectetur adipiscing
+            elit...
+          </p>
+          <button class="btn-interesse">Tirar Interesse</button>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
