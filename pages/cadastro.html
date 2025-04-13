@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h2>Cadastro</h2>
-      <form action="#" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required />
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro - EcoEscambo</title>
+  <link rel="stylesheet" href="../css/cadastro.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <a href="#">
+          <img src="../img/logo.png" alt="Logo EcoEscambo" />
+        </a>
+      </div>
+      
+    <h2>Cadastro</h2>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required />
 
-        <label for="senha">Senha:</label>
+      <label for="senha">Senha</label>
+      <div class="password-field">
         <input type="password" id="senha" name="senha" required />
-        <div class="senha-requisitos">
-          • Ao menos 6 caracteres<br />
-          • Combinar letras com números<br />
-          • Pelo menos uma letra maiúscula
-        </div>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/invisible.png" class="eye-icon" alt="Mostrar senha" />
+      </div>
 
-        <label for="senha">Confirmar senha:</label>
-        <input type="password" id="senha" name="senha" required />
-        <br />
+      <label for="senha2">Repita a senha</label>
+      <div class="password-field">
+        <input type="password" id="senha2" name="senha2" required />
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/invisible.png" class="eye-icon" alt="Mostrar senha" />
+      </div>
 
-        <button type="submit">Cadastrar</button>
-      </form>
-      <a href="/pages/autenticacao.html">
-        <button>Voltar</button>
-      </a>
+      <button class="btn" type="submit">Cadastrar</button>
+    </form>
+
+    <div class="login-link">
+      Já é usuário? <a href="login.html">Entrar</a>
     </div>
-  </body>
+  </div>
+</body>
 </html>

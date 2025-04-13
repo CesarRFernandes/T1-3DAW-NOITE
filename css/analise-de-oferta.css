@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f8e9;
+    color: #3d332d;
+  }
+  
+  header {
+    background-color: #ffda3f;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 175px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #3d332d;
+  }
+  
+  nav a.ativo {
+    color: #6c3c91;
+  }
+  
+  main {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  .troca {
+    flex: 3;
+  }
+  
+  .troca h2 {
+    margin-top: 0;
+    color: #5c4033;
+  }
+  
+  .card {
+    background-color: #a8dbb5;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .horizontal {
+    flex-direction: row;
+  }
+  
+  .invertido {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .img-placeholder {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .conteudo h3 {
+    margin-top: 0;
+  }
+  
+  .botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  button.recusar {
+    background-color: #e53935;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button.aceitar {
+    background-color: #29b6f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .interessado {
+    flex: 1;
+    background-color: #a8dbb5;
+    padding: 20px;
+    border-radius: 15px;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .interessado h3 {
+    margin-top: 0;
+  }
+  
+  .nome {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f8e9;
+    border: 1px solid #5c4033;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
