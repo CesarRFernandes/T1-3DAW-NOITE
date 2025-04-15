@@ -1,3 +1,10 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -39,11 +46,17 @@ nav a {
     color: #3d332d;
     text-decoration: none;
     font-size: 1.1rem;
-  }
+}
 
 nav a.ativo {
     color: #6c3c91;
-  }
+}
+
+nav a:hover
+{
+    color: #64A646;
+    font-size: 1.15em;
+}
 
 main {
     display: flex;
