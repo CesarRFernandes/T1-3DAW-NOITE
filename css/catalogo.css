@@ -1,8 +1,13 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
-    background: #f9f8e9;
     color: #3d332d;
+    background-image: url("../img/fundo5.jpeg");  
+    background-color: #ffffff44; 
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   header {

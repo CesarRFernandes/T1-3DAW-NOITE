@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f7e8;
+  background-image: url("../img/fundo4.webp");
+  background-size: cover;
+
   font-family: "Arial Rounded MT Bold", Arial, sans-serif;
   display: flex;
   justify-content: center;
