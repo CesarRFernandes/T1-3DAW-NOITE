@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoEscambo | Análise de Oferta</title>
   <link rel="stylesheet" href="../css/style2.css">
   <link rel="stylesheet" href="../css/analise-de-oferta.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <div class="logo">
-        <a href="catalogo.html">
-          <img src="../img/logo2.png" alt="Logo EcoEscambo" />
-        </a>
+      <a href="catalogo.php">
+        <img src="../img/logo2.png" alt="Logo EcoEscambo" />
+      </a>
     </div>
     <nav>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="meus-produtos.html">Meus produtos</a>
-      <a href="analise-de-oferta.html" class="ativo">Ofertas</a>
-      <a href="login.html">Sair</a>
+      <a href="catalogo.php">Catálogo</a>
+      <a href="meus-produtos.php">Meus produtos</a>
+      <a href="analise-de-oferta.php" class="ativo">Ofertas</a>
+      <a href="login.php">Sair</a>
     </nav>
   </header>
 
@@ -53,5 +55,7 @@
       <div class="nome">Beltrano</div>
     </aside>
   </main>
+  <script src="../js/analise-de-oferta.js"></script>
 </body>
+
 </html>

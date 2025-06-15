@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoEscambo | Ofertas Recebidas</title>
   <link rel="stylesheet" href="../css/style2.css">
   <link rel="stylesheet" href="../css/ofertas-recebidas.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <div class="logo">
-        <a href="catalogo.html">
-          <img src="../img/logo2.png" alt="Logo EcoEscambo" />
-        </a>
+      <a href="catalogo.php">
+        <img src="../img/logo2.png" alt="Logo EcoEscambo" />
+      </a>
     </div>
     <nav>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="meus-produtos.html">Meus produtos</a>
-      <a href="analise-de-oferta.html">Ofertas</a>
-      <a href="login.html">Sair</a>
+      <a href="catalogo.php">Catálogo</a>
+      <a href="meus-produtos.php">Meus produtos</a>
+      <a href="analise-de-oferta.php">Ofertas</a>
+      <a href="login.php">Sair</a>
     </nav>
   </header>
 
@@ -40,7 +42,7 @@
         <div class="conteudo">
           <h3>Produto 01</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in dolor vel nunc iaculis consequat. Etiam in ligula non nisl iaculis lacinia ac at nulla.</p>
-          <button class="propor" onclick="window.location.href='analise-de-oferta.html'">Propor</button>
+          <button class="propor" onclick="window.location.href='analise-de-oferta.php'">Propor</button>
         </div>
         <div class="img-placeholder"></div>
       </div>
@@ -49,7 +51,7 @@
         <div class="conteudo">
           <h3>Produto 02</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in dolor vel nunc iaculis consequat. Etiam in ligula non nisl iaculis lacinia ac at nulla.</p>
-          <button class="propor" onclick="window.location.href='analise-de-oferta.html'">Propor</button>
+          <button class="propor" onclick="window.location.href='analise-de-oferta.php'">Propor</button>
         </div>
         <div class="img-placeholder"></div>
       </div>
@@ -70,4 +72,5 @@
     </aside>
   </main>
 </body>
+
 </html>

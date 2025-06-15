@@ -11,15 +11,15 @@
 <body>
   <header>
     <div class="logo">
-        <a href="catalogo.html">
+        <a href="catalogo.php">
           <img src="../img/logo2.png" alt="Logo EcoEscambo" />
         </a>
     </div>
     <nav>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="meus-produtos.html">Meus produtos</a>
-      <a href="analise-de-oferta.html">Ofertas</a>
-      <a href="login.html">Sair</a>
+      <a href="catalogo.php">Catálogo</a>
+      <a href="meus-produtos.php">Meus produtos</a>
+      <a href="analise-de-oferta.php">Ofertas</a>
+      <a href="login.php">Sair</a>
     </nav>
   </header>
 

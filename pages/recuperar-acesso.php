@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Recuperar Acesso - EcoEscambo</title>
   <link rel="stylesheet" href="../css/style1.css">
   <link rel="stylesheet" href="../css/recuperar-acesso.css" />
 </head>
+
 <body>
   <div class="container">
     <div class="logo">
-        <a href="cadastro.html">
-          <img src="../img/logo.png" alt="Logo EcoEscambo" />
-        </a>
-      </div>
-      
+      <a href="cadastro.php">
+        <img src="../img/logo.png" alt="Logo EcoEscambo" />
+      </a>
+    </div>
+
     <h2>Recuperar acesso</h2>
     <form>
       <label for="email">Email</label>
@@ -23,14 +25,15 @@
     </form>
 
     <div class="extra-links">
-      <a href="login.html">Voltar</a>
+      <a href="login.php">Voltar</a>
     </div>
 
     <div class="divider"></div>
 
     <div class="bottom-text">
-      Ainda não é usuário? <a href="cadastro.html">Cadastre-se</a>
+      Ainda não é usuário? <a href="cadastro.php">Cadastre-se</a>
     </div>
   </div>
 </body>
+
 </html>
